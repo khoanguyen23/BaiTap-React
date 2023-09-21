@@ -1,0 +1,26 @@
+.header{
+    background-image: url("../images/cover.png"),linear-gradient(#fbc300,#c98a00);
+    color: #fff;
+    min-height: 368px;
+    text-align: center;
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    display: flex;
+    .logo-image{
+        height: 24px;
+        width: 92px;
+    
+    }
+    .input__search{
+        max-width: 900px;
+    }
+}
